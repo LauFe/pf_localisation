@@ -39,7 +39,7 @@ If correctly compiled, you should find `laser_trace.so` in the directory `<catki
 
 The localisation node can be tested in stage simulation (without the need for robot).
 
-        rosrun stage stageros /data/private/ros/socspioneer/lgfloor.world
+        rosrun stage stageros <catkin_ws>/src/socspioneer/data/meeting.world
         roslaunch socspioneer keyboard_teleop.launch  # ---- run only if you want to move robot using keyboard 
         rosrun pf_localisation node.py    # ----- requires laser_trace, and completed pf.py methods.
 
