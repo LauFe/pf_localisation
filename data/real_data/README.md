@@ -16,7 +16,7 @@ The folder contains 4 `trace[n].bag` files (`n=0,1,2,3`). Each file contains the
 
 To play back any bag file run `rosbag play <file>`. In another terminal try listing the available topics (`rostopic list`) and try listening to each (`rostopic echo <topic_name>`).
 
-*NOTE: The file `trace0.bag` is probably the best to start testing your algorithm with. It has simpler and slower motions, with only a few rotational motions.*
+*NOTE: The file `trace0.bag` is probably the best to start testing your algorithm with. It has simpler and slower motions, with mostly motion in straight lines and only a few rotational motions.*
 
 ## Localisation using in-built AMCL algorithm
 
