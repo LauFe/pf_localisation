@@ -12,7 +12,7 @@ For starting the map server, run `rosrun map_server map_server map.yaml`. You ca
 
 ## Reading the recorded data
 
-The folder contains 4 files `trace[n].bag` files (`n=0,1,2,3`). Each file contains the recording of `/base_scan` (laser data) and `/odom` (odometry data) from the real robot collected while navigating different paths along the provided map.
+The folder contains 4 `trace[n].bag` files (`n=0,1,2,3`). Each file contains the recording of `/base_scan` (laser data) and `/odom` (odometry data) topics from the real robot collected while navigating different paths along the provided map.
 
 To play back any bag file run `rosbag play <file>`. In another terminal try listing the available topics (`rostopic list`) and try listening to each (`rostopic echo <topic_name>`).
 
